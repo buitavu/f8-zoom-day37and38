@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  max-height: 700px;
+  max-width: 840px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.user {
+  background-color: #f3f2f2;
+  border-radius: 9px;
+  padding: 0 13px;
+}
+
+.btn-user {
+  border: none;
+  padding: 12px;
+  background-color: #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.body-user {
+}
+
+.product {
+  width: 45%;
+  background-color: #f3f2f2;
+  border-radius: 9px;
+  padding: 0 13px;
+}
+
+.btn-product {
+  border: none;
+  padding: 12px;
+  background-color: #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.body-product {
+}

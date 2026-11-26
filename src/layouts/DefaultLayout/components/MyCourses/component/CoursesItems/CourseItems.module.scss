@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 125px;
+  border-radius: 5px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 12px;
+}
+
+.name {
+}
+
+.title {
+}

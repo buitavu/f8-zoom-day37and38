@@ -1,0 +1,27 @@
+.notificaton {
+  background-color: #fff;
+  margin: 0 12px;
+  position: relative;
+}
+
+.notificaton i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  &:hover {
+    background-color: #f5f6f7;
+    color: #b73710;
+    cursor: pointer;
+  }
+}
+
+.quantity {
+  position: absolute;
+  padding: 1px 6px;
+  background-color: red;
+  color: #fff;
+  border-radius: 14px;
+  top: -2px;
+  left: 23px;
+  font-size: 13px;
+}

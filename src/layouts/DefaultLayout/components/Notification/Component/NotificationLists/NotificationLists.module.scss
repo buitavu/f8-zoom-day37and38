@@ -1,0 +1,40 @@
+.NotificationItems {
+  position: absolute;
+  width: 400px;
+  right: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  top: 50px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px 4px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.heading-message {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.heading-done {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+
+  &:hover {
+    background-color: #fef1ee;
+    color: #bb421d;
+    cursor: pointer;
+  }
+}
+
+.heading-done > span {
+  font-size: 14px;
+  font-weight: 600;
+}

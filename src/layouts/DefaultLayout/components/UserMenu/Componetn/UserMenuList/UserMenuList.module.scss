@@ -1,0 +1,58 @@
+.usermenulist {
+  position: absolute;
+  padding: 8px 24px;
+  right: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 200px;
+  border-radius: 4px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  border-radius: 30px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 28px;
+}
+
+.name {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.email {
+  color: #a7a7a7;
+}
+
+.list {
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-item {
+  font-size: 14px;
+  padding: 10px;
+  color: #858585;
+}
+
+.list-footer {
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-item-footer {
+  font-size: 14px;
+  padding: 10px;
+  color: #858585;
+  font-weight: 700;
+}

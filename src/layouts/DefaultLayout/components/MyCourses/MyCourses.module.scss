@@ -1,0 +1,20 @@
+.wrraper {
+  position: relative;
+}
+
+.courses-btn {
+  padding: 17px 22px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: #fff;
+  &:hover {
+    background-color: #fef1ee;
+    color: #b73710;
+  }
+}
+
+.courses-btn span {
+  font-size: 15px;
+  font-weight: 600;
+}

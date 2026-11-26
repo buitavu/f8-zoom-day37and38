@@ -1,0 +1,14 @@
+.usermenu {
+  position: relative;
+}
+
+.img {
+  width: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 5px;
+  &:hover {
+    background-color: #ccc;
+    border-radius: 30px;
+  }
+}

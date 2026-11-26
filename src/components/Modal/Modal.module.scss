@@ -1,0 +1,100 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.custom-modal {
+  width: 500px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff7920;
+  color: #fff;
+  border-radius: 10px;
+  &:hover {
+    background-color: #ff8636;
+    cursor: pointer;
+  }
+}
+
+.closing .overlay {
+  animation: fadeOut 0.3s ease forwards;
+}
+
+.closing .content {
+  animation: zoomOut 0.3s ease forwards;
+}
+
+// Animation khi mở
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -45%) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -45%) scale(0.9);
+  }
+}
